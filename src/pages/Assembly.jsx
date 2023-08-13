@@ -179,11 +179,7 @@ const Assembly = () => {
               {draggedItems
                 .filter((image) => image.targetArea === 'drop-area-1')
                 .map((image, index) => (
-                  <img
-                    key={index}
-                    src={`../../public/assets/left-pad.png`}
-                    alt={image.imageName}
-                  />
+                  <img key={index} src={leftPad} alt={image.imageName} />
                 ))}
             </div>
             <div
@@ -206,11 +202,7 @@ const Assembly = () => {
               {draggedItems
                 .filter((image) => image.targetArea === 'drop-area-2')
                 .map((image, index) => (
-                  <img
-                    key={index}
-                    src={`../../public/assets/right-pad.png`}
-                    alt={image.imageName}
-                  />
+                  <img key={index} src={rightPad} alt={image.imageName} />
                 ))}
             </div>
             <div
@@ -233,11 +225,7 @@ const Assembly = () => {
               {draggedItems
                 .filter((image) => image.targetArea === 'drop-area-3')
                 .map((image, index) => (
-                  <img
-                    key={index}
-                    src={`../../public/assets/left-glove.png`}
-                    alt={image.imageName}
-                  />
+                  <img key={index} src={leftGlove} alt={image.imageName} />
                 ))}
             </div>
             <div
@@ -260,11 +248,7 @@ const Assembly = () => {
               {draggedItems
                 .filter((image) => image.targetArea === 'drop-area-4')
                 .map((image, index) => (
-                  <img
-                    key={index}
-                    src={`../../public/assets/right-glove.png`}
-                    alt={image.imageName}
-                  />
+                  <img key={index} src={rightGlove} alt={image.imageName} />
                 ))}
             </div>
             <div
@@ -287,11 +271,7 @@ const Assembly = () => {
               {draggedItems
                 .filter((image) => image.targetArea === 'drop-area-5')
                 .map((image, index) => (
-                  <img
-                    key={index}
-                    src={`../../public/assets/helmet.png`}
-                    alt={image.imageName}
-                  />
+                  <img key={index} src={helmet} alt={image.imageName} />
                 ))}
             </div>
           </div>
